@@ -9,6 +9,15 @@ This project explores flight performance in the US for the year 2004, focusing o
 
 The goal is to help stakeholders in the airline industry make data-driven operational decisions to improve punctuality and reduce customer disruptions using analysis of past data.
 
+## Tools and Technologies
+
+- Python 3.9
+- HiveQL
+- Hadoop HDFS
+- Jupyter Notebook
+- Plotly Express
+- Docker Sandbox for Hive setup
+
 ## Overview of Project Flow
 ![Project_Flow](https://github.com/user-attachments/assets/ff09ccd9-e97d-47ed-aca8-ddfc4d339fa3)
 
@@ -199,6 +208,10 @@ By analysing these historical patterns, the aviation industry can benchmark how 
 ### How it will impact the future?
 
 This project demonstrates the value of turning raw flight logs into clear, data-driven stories. In an industry where every minute counts, even small improvements in understanding patterns and root causes can help airlines boost reliability, cut costs, and improve passenger trust.
+
+## References
+- [US DOT Bureau of Transportation Statistics](https://www.transtats.bts.gov/)
+- [Kaggle: US Flight Delays Dataset](https://www.kaggle.com/)
 
 **Thank you for your attention! Hope this analysis would be helpful!**
 
