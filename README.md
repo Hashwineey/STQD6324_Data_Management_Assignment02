@@ -22,7 +22,7 @@ df_delay_2004.csv contains all the data of delayed flights in 2004 and df_cancel
 You may refer to the "Data Cleaning.ipynb" file for the data preparation steps.
 
 ## Upload Data to Hive
-Now that we have two cleaned datasets, it is time to upload them to Hive in order for us to analyse the datasets. 
+Now that we have two cleaned datasets, it is time to upload them to Hive in order for us to analyse the datasets.
 
 For that, first, the CSV files were copied from the local drive to the hdp-sandbox.
 ![Local_to_Sandbox](https://github.com/user-attachments/assets/7f4a8a1b-b9ac-47b2-b1fd-f192354707e2)
@@ -30,10 +30,13 @@ For that, first, the CSV files were copied from the local drive to the hdp-sandb
 Then, the files were uploaded to HDFS
 ![HDFS Upload](https://github.com/user-attachments/assets/967ac06a-67bd-48e9-ab18-20417edf65f0)
 
-Lastly, the datasets were mapped to Hive tables that were created for these datasets.
+Lastly, the datasets were mapped to Hive tables that were created for these datasets. You may find the codes to create table in Hive in "Create_Hive_Table.txt" file. 
 ![Hive_Table](https://github.com/user-attachments/assets/f0167863-2dc8-4dcc-92cf-6c58f6fe6837)
 
 ## Data Analysis and Data Visualization
+Once the datasets are uploaded to Hive, Jupyter Notebook was then connected to Hive to make Data Analysis and Data Visualization easier.
+
+
 
 
 
